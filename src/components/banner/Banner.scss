@@ -1,12 +1,9 @@
 .banner {
-  height: 50px;
-  background-color: rgb(165, 165, 165);
+  height: 5vh;
+  background-color: #e6e6e6;
 
-  .banner__container {
-    max-width: 1500px;
-    height: 50px;
-    margin: auto;
-    display: flex;
+  .container {
+    height: 5vh;
     align-items: center;
     overflow: hidden;
     position: relative;
@@ -16,7 +13,7 @@
   h2 {
     width: fit-content;
     position: absolute;
-    font-size: 18px;
+    font-size: 1em;
     animation-duration: 20s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
